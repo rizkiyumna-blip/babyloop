@@ -1,10 +1,6 @@
 install.packages("readxl")
 library(readxl)
 data_skripsi <- read_excel("book1.xlsx")
-# =====================================================================
-# CLAD dua sisi (kiri = 0, kanan = batas ARA per baris)
-# Jalankan dari atas ke bawah. Syarat: objek `data_skripsi` ada di Environment.
-# =====================================================================
 
 # ---- 0. Persiapan --------------------------------------------------
 if (!require(quantreg)) install.packages("quantreg")
