@@ -172,8 +172,3 @@ R2_korelasi <- cor(y, pred)^2
 cat("\n=== Pseudo R-Square ===\n",
     "Pseudo R2 (1 - V1/V0)           =", round(pseudo_R2, 4), "\n",
     "R2 korelasi (aktual vs prediksi) =", round(R2_korelasi, 4), "\n")
-
-# ---- 11. (Opsional) Ekspor ke CSV ----------------------------------
-# write.csv(tabel_koef, "koefisien_clad.csv")
-# write.csv(tabel_t,    "uji_t_clad.csv")
-# write.csv(tabel_vif,  "vif_clad.csv")
